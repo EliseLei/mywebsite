@@ -1,0 +1,6 @@
+# Resources/fixtures/related_dummy.yml
+
+src\Entity\User:
+    User_{1..10}:
+        Name: <Name()>
+        FirstName: <FirstName()>

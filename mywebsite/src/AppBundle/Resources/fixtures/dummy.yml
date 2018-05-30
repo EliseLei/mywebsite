@@ -1,0 +1,7 @@
+# Resources/fixtures/dummy.yml
+
+src\Entity\Playlist:
+    playlist_{1..10}:
+        Name: <Name()>
+        nb_single: <nb_single()>
+        User: '@User*'
